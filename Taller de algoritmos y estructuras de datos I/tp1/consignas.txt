@@ -1,12 +1,26 @@
 Consigna 1:
-Ejecute el código anterior e ingrese una frase, (más de una palabra con espacios u otros signos de puntuación en el medio). Debería lanzar una ArrayIndexOutOfBoundsException, porque un carácter (no letra) va a generar un índice que no está entre 0 y 25. Puede ser deseable permitir caracteres que no sean letras, pero no contarlos. Por supuesto, puede probar explícitamente el valor del carácter para ver si está entre 'A' y 'Z'. Sin embargo, una alternativa es seguir adelante y utilizar el carácter traducido como “índice” y capturar una excepción ArrayIndexOutOfBoundsException si ocurre. Modifique este método para hacer esto de la siguiente manera:
+Ejecute el código anterior e ingrese una frase, (más de una palabra con espacios u otros signos de puntuación en el medio). 
+Debería lanzar una ArrayIndexOutOfBoundsException, porque un carácter (no letra) va a generar un índice que no está entre 0 y 25. 
+Puede ser deseable permitir caracteres que no sean letras, pero no contarlos. 
+Por supuesto, puede probar explícitamente el valor del carácter para ver si está entre 'A' y 'Z'. 
+Sin embargo, una alternativa es seguir adelante y utilizar el carácter traducido como “índice” y capturar una excepción ArrayIndexOutOfBoundsException si ocurre. 
+Modifique este método para hacer esto de la siguiente manera:
 Probar el cuerpo del primer bucle for.
 Agregar una captura que detecte la excepción, pero no haga nada con ella.
 Compilar y ejecutar el programa.
  
 Consigna 2:
-Ahora modifiquemos el cuerpo de la captura para que imprima un mensaje amigable (por ej.: "No es una letra") seguido de la excepción. Compilar y ejecutar el programa. Mostrar la descripción de la excepción es útil para depurar, pero usualmente no la dejamos en producción o cuando nuestro programa está listo. En el mensaje que muestras por pantalla, reemplaza la excepción con el carácter que creó el índice de “fuera de límites”. Ejecuta el programa nuevamente... queda mejor, ¿no?
+Ahora modifiquemos el cuerpo de la captura para que imprima un mensaje amigable (por ej.: "No es una letra") seguido de la excepción. 
+Compilar y ejecutar el programa. 
+Mostrar la descripción de la excepción es útil para depurar, pero usualmente no la dejamos en producción o cuando nuestro programa está listo. 
+En el mensaje que muestras por pantalla, reemplaza la excepción con el carácter que creó el índice de “fuera de límites”. Ejecuta el programa nuevamente... queda mejor, ¿no?
  
 Consigna 3: 
-Con el código anterior, defina una nueva clase donde uno de sus métodos sea el de conteo de frecuencia. Tiene libertad en cuanto a la elección de los atributos, nombres de las variables y métodos a utilizar. Recuerde que se evalúa la originalidad de su propuesta. Además desarrolle un nuevo programa y en el método main() solicite por teclado que el usuario ingrese N palabras que serán almacenadas en un arreglo (no debe utilizar ArrayList). La elección del tamaño del arreglo es suya y definida al momento de su creación. El programa debe: permitir almacenar palabras ingresadas por teclado, listar todas las palabras almacenadas y hacer uso del método de conteo para una palabra N almacenada en una posición elegida por el usuario desde el teclado. Todos los archivos deben tener en la primera línea del código un comentario con su apellido, nombre, legajo y fecha.
+Con el código anterior, defina una nueva clase donde uno de sus métodos sea el de conteo de frecuencia. 
+Tiene libertad en cuanto a la elección de los atributos, nombres de las variables y métodos a utilizar. 
+Recuerde que se evalúa la originalidad de su propuesta. 
+Además desarrolle un nuevo programa y en el método main() solicite por teclado que el usuario ingrese N palabras que serán almacenadas en un arreglo (no debe utilizar ArrayList). 
+La elección del tamaño del arreglo es suya y definida al momento de su creación. 
+El programa debe: permitir almacenar palabras ingresadas por teclado, listar todas las palabras almacenadas y hacer uso del método de conteo para una palabra N almacenada en una posición elegida por el usuario desde el teclado. 
+Todos los archivos deben tener en la primera línea del código un comentario con su apellido, nombre, legajo y fecha.
 Es importante recalcar que se evaluará la originalidad del código en cuanto a los algoritmos implementados, nombres de variables, clases, entre otros.
