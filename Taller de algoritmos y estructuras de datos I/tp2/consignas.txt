@@ -1,3 +1,13 @@
 Consigna 1: 
-Desarrollen el código en Java para manejar una estructura de datos pila utilizando un arreglo. Para probarla se solicita que elijan generar una pila de alguno de los siguientes tipos de datos primitivos: int o char. La cantidad de elementos a almacenar en la Pila queda a su criterio. Generen un menú que solicite por pantalla al usuario tres opciones: apilar, retirar elementos del arreglo y para saber si la pila está vacía. Deben implementar los métodos ustedes mismos y no utilizar la clase Stack de Java (u otras librerías). Consigna 2: 
-Desarrollen el código necesario en Java para implementar una estructura de datos tipo cola y sus operaciones, mediante listas enlazadas. La implementación debe ser completada por ustedes y no se deben utilizar librerías provistas por la API de Java. Haciendo uso de la clase cola recientemente generada, abordarán el problema descripto a continuación. Se les solicita elaborar un programa para procesar los pedidos de una fábrica de ladrillos. Cada pedido tiene un código numérico, el nombre del cliente y la cantidad de ladrillos que debe ser implementado con una clase, y los pedidos se procesan por orden de llegada, organizándolos mediante el uso de la cola. En una clase principal, generen entre 3 y 6 pedidos de prueba, que son agregados a la cola, y muestren el comportamiento de los métodos por ustedes desarrollados.
+Desarrollen el código en Java para manejar una estructura de datos pila utilizando un arreglo. 
+Para probarla se solicita que elijan generar una pila de alguno de los siguientes tipos de datos primitivos: int o char. 
+La cantidad de elementos a almacenar en la Pila queda a su criterio. 
+Generen un menú que solicite por pantalla al usuario tres opciones: apilar, retirar elementos del arreglo y para saber si la pila está vacía. 
+Deben implementar los métodos ustedes mismos y no utilizar la clase Stack de Java (u otras librerías). 
+Consigna 2: 
+Desarrollen el código necesario en Java para implementar una estructura de datos tipo cola y sus operaciones, mediante listas enlazadas. 
+La implementación debe ser completada por ustedes y no se deben utilizar librerías provistas por la API de Java. 
+Haciendo uso de la clase cola recientemente generada, abordarán el problema descripto a continuación. 
+Se les solicita elaborar un programa para procesar los pedidos de una fábrica de ladrillos. 
+Cada pedido tiene un código numérico, el nombre del cliente y la cantidad de ladrillos que debe ser implementado con una clase, y los pedidos se procesan por orden de llegada, organizándolos mediante el uso de la cola. 
+En una clase principal, generen entre 3 y 6 pedidos de prueba, que son agregados a la cola, y muestren el comportamiento de los métodos por ustedes desarrollados.
