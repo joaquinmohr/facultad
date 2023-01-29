@@ -1,0 +1,5 @@
+Consignas: 
+1. En relación con los objetivos de la unidad y de acuerdo con el esquema asignado se piden las siguientes consignas:
+a) Se debe utilizar una función random que genere números aleatorios entre 0 y 1, y la dimensión de la cadena de caracteres debe ser de 20 dígitos.
+b) Se debe controlar el número de iteraciones y cruces necesarios para llegar a la solución óptima.
+c) El programa debe mostrar por pantalla cada una de cadenas de caracteres aptas encontradas que fueron necesarias para llegar a la solución óptima (cadena óptima).
