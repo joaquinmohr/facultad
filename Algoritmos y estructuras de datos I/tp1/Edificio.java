@@ -1,10 +1,8 @@
 public class Edificio {
 
-    //private int numOficinas;
     private Oficina[][] oficinas;
 
     public Edificio() {
-        //this.numOficinas = cantidadDeOficinas;
     }
 
     public void setOficinas(Oficina[][] oficinas) {
