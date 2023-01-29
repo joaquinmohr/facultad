@@ -1,2 +1,7 @@
 Consigna:
-Desarrollen el código en Java para manejar mediante una lista doblemente enlazada una serie de productos. Cada producto tiene un código, una descripción y un precio. Cada vez que se inserta un artículo se lo debe hacer ordenado de menor a mayor según el atributo código. En caso de que el código ya exista debe devolver un error y no insertar el registro. Desarrollen una clase principal e inserten entre 4 y 6 productos de prueba y finalmente listen por pantalla los elementos presentes en la lista doblemente enlazada. Deben implementar los métodos ustedes mismos y no utilizar la clase LinkedList de Java (u otras librerías).
+Desarrollen el código en Java para manejar mediante una lista doblemente enlazada una serie de productos. 
+Cada producto tiene un código, una descripción y un precio. 
+Cada vez que se inserta un artículo se lo debe hacer ordenado de menor a mayor según el atributo código. 
+En caso de que el código ya exista debe devolver un error y no insertar el registro. 
+Desarrollen una clase principal e inserten entre 4 y 6 productos de prueba y finalmente listen por pantalla los elementos presentes en la lista doblemente enlazada. 
+Deben implementar los métodos ustedes mismos y no utilizar la clase LinkedList de Java (u otras librerías).
