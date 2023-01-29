@@ -34,7 +34,7 @@ public class Edificio {
                 }
             }
         }
-        System.out.println("La primer oficina activa encontrada es la " + (oficina.getNro()+1) + " en el piso N°: " + (oficina.getPiso()+1));
+        System.out.println("La primer oficina activa encontrada es la " + (oficina.getNro()+1) + " en el piso N° " + (oficina.getPiso()+1));
         return oficina;
 
     }
